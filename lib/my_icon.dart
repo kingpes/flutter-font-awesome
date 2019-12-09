@@ -1,10 +1,10 @@
 import 'package:flutter/widgets.dart';
 
-class ExampleIcon implements Comparable {
+class MyIcon implements Comparable {
   final IconData iconData;
   final String title;
 
-  ExampleIcon(this.iconData, this.title);
+  MyIcon(this.iconData, this.title);
 
   @override
   String toString() => 'IconDefinition{iconData: $iconData, title: $title}';
@@ -12,7 +12,7 @@ class ExampleIcon implements Comparable {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is ExampleIcon &&
+      other is MyIcon &&
           runtimeType == other.runtimeType &&
           iconData == other.iconData &&
           title == other.title;

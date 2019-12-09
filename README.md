@@ -1,16 +1,31 @@
-# kp_font_awesome_flutter
+# flutter_font_awesome
 
-A new Flutter project.
+    The Font Awesome Icon pack available as Flutter Icons. Provides 1500 additional icons to use in your apps.
 
-## Getting Started
+## [Demo Video](https://youtu.be/fQNxLqgr8iQ)
+[![Watch the video](https://img.youtube.com/vi/fQNxLqgr8iQ/maxresdefault.jpg)](https://youtu.be/fQNxLqgr8iQ)
 
-This project is a starting point for a Flutter application.
+## Installing
+    dependencies:
+        font_awesome_flutter: ^8.5.0
 
-A few resources to get you started if this is your first Flutter project:
+## Import
+    import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Usage
+```dart
+class MyWidget extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return new IconButton(
+      icon: new Icon(FontAwesomeIcons.gamepad), 
+      onPressed: () { print("Pressed"); }
+     );
+  }
+}
+```
+## Example
+[example.dart](https://youtu.be/fQNxLqgr8iQ)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### See more
+- [Homepage](https://kingpesdev.firebaseapp.com/)
+- [Github](https://github.com/kingpes) 
